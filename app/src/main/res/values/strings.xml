@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TennisTest2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Drawer Items -->
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_player_bio">Players Bio</string>
+    <string name="drawer_item_head_to_head">Head to Head</string>
+
+    <!-- Fragment Bio -->
+    <string name="dummy_name">ANDY</string>
+    <string name="dummy_surname">MURRAY</string>
+    <string name="ranking_text">RANKING</string>
+    <string name="dummy_ranking_number">2</string>
+    <string name="dummy_nation_sigle">GBR</string>
+
+</resources>

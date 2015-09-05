@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MaterialDrawerTheme.Light.DarkToolbar">
+        <!-- Customize your theme here. -->
+
+        <!-- ...and here we setting appcompat’s color theme attrs -->
+        <item name="colorPrimary">#02A8F3</item>
+        <item name="colorPrimaryDark">#0013FF</item>
+        <item name="colorAccent">#02FFA3</item>
+
+
+        <item name="circularProgressBarStyle">@style/CircularProgressBar</item>
+
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+</resources>
