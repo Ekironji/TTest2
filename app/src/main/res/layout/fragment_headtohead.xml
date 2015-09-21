@@ -28,10 +28,10 @@
                     <ImageView
                         android:id="@+id/player_sx_image"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="150dp"
                         android:layout_alignParentTop="true"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/murray_head"/>
+                        android:src="@drawable/federer_headshot"/>
 
                     <TextView
                         android:id="@+id/player_sx_name"
@@ -40,14 +40,24 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_below="@+id/player_sx_image"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:text="Roger" />
+
+                    <TextView
+                        android:id="@+id/player_sx_surname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/player_sx_name"
                         android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:text="Age" />
+                        android:text="Federer" />
 
                 </RelativeLayout>
 
                 <View
                     android:layout_width="1dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:background="@android:color/black"/>
 
                 <RelativeLayout
@@ -58,10 +68,10 @@
                     <ImageView
                         android:id="@+id/player_dx_image"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:layout_alignParentTop="true"
+                        android:layout_height="150dp"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/murray_head" />
+                        android:src="@drawable/murray_headshot"
+                        android:layout_alignParentTop="true" />
 
                     <TextView
                         android:id="@+id/player_dx_name"
@@ -70,8 +80,18 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignParentEnd="true"
                         android:layout_below="@+id/player_dx_image"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:text="Andy" />
+
+                    <TextView
+                        android:id="@+id/player_dx_surname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/player_dx_name"
                         android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:text="Age" />
+                        android:text="Murray" />
 
                 </RelativeLayout>
 
@@ -79,13 +99,16 @@
 
             <com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar
                 android:id="@+id/holoCircularProgressBar"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_below="@+id/upper_layout"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_centerHorizontal="true"
+                android:layout_alignTop="@+id/upper_layout"
+                android:layout_marginTop="120dp"
+                android:background="#CCFFFFFF"
                 app:progress_background_color="@android:color/holo_blue_dark"
                 app:progress_color="@android:color/holo_orange_dark"
-                app:stroke_width="8dp" />
+                app:stroke_width="8dp"
+                app:marker_visible="false"/>
 
         </RelativeLayout>
 
